@@ -1,0 +1,14 @@
+{
+  "laptops":{
+    "lap1": "Apple MacBook Air 13-Inch (2018) A1932 – Intel Core i5 1.6GHz, 8GB RAM, 128GB SSD, English/Arabic Keyboard, Gold"
+  },
+
+  "smartwatches": {
+    "smart1": {
+      "name": "Apple Watch Series 6 (40mm, GPS + Cellular) Gold Aluminum Case with Pink Sand Sport Band",
+      "connectivity": "GPS And Cellular",
+      "color": "Silver",
+      "size": "44mm"
+    }
+  }
+}
