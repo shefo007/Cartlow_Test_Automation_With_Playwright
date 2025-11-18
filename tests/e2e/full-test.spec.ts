@@ -1,10 +1,6 @@
 import { test, expect } from './base-test';
-import { HomePage } from '../pages/home-page';
-import { LoginPage } from '../pages/login-page';
-import { TapItemsPage } from '../pages/tap-items-page';
 import { Data } from '../test-data/test-data';
-import { ItemDetailsPage } from '../pages/item-details-page';
-import { CartPage } from '../pages/cart-page';
+
 
 test('Full E2E workflow', async ({ homePage, tapItemsPage, itemDetailsPage, cartPage }) => {
 

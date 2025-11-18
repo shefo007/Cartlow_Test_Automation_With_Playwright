@@ -1,6 +1,9 @@
 import { Locator, Page } from "@playwright/test";
 import { HomePage } from "./home-page";
 
+// TapItemsPage maybe Laptops, Watches, Mobiles ... etc from taps it is an object
+// and all the taps part of the home page, so that for example I can from Laptops tap go to smartwatches tap
+// ,so I extend HomePage in TapItemsPage.
 export class TapItemsPage extends HomePage {
 
     

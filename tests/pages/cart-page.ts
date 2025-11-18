@@ -31,6 +31,7 @@ export class CartPage extends HomePage {
         await this.agreeBtn.click();
     }
 
+    // this method to remove all the items from the cart to leave cart empty but from cart page
     async removeAllItemsFromCart() {
         while ((await this.itemCard.count()) > 0) {
             await this.itemCard.first().getByText('Remove').click();

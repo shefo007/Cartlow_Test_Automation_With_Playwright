@@ -1,7 +1,9 @@
 import { Locator, Page } from "@playwright/test";
 import { HomePage } from "./home-page";
 
-
+// this class contains all item details, condition, color, size (item options)
+// , also it's part of the home page because it contains the main elements from HomePage,
+// so I extend HomePage Class in ItemDetailsPage
 export class ItemDetailsPage extends HomePage {
 
     private readonly addToCartBtn: Locator;
@@ -41,6 +43,7 @@ export class ItemDetailsPage extends HomePage {
         }
     }
 
+    // choose all options at once
     async addAllOptions(...options:string[]) {
         for (const option of options) {
             const optionLocator = this.page.locator(`//label[@title="${option}"]/input`);
